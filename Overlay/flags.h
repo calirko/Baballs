@@ -23,6 +23,10 @@
 #define FLAG_ROUTINE_23         (1U << 22) 
 #define FLAG_ROUTINE_24         (1U << 23)  
 
+// Aliases, keep in sync with Baballonia's CaptureFlags.cs
+#define FLAG_FREE_EXPRESSION    FLAG_ROUTINE_2  // gaze-valid pass with free (unlabeled) expressions
+#define FLAG_SLIP               FLAG_ROUTINE_3  // headset-slip pass: static reticle, headset moved on the face
+
 #define FLAG_CONVERGENCE        (1U << 24)  
 #define FLAG_IN_MOVEMENT        (1U << 25)  
 #define FLAG_RESTING            (1U << 26) 
